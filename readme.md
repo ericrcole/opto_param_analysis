@@ -1,8 +1,8 @@
-Code and processed data accompanying the paper "Irregular optogenetic stimulation waveforms can induce naturalistic patterns of hippocampal spectral activity"
+##Code and processed data accompanying the paper "Irregular optogenetic stimulation waveforms can induce naturalistic patterns of hippocampal spectral activity"
 
 Work in progress; will be finalized pending submission of the revised manuscript
 
-Directory structure:
+#Directory structure:
 
 ./exp_code: .m files for generating and plotting stimulation signals (as used in real-time TDT experiments)
 
@@ -12,7 +12,7 @@ Directory structure:
 
 ./dr_analysis: code for analysis of dimension-reduced data (Figs. 4-6)
 
-Important files:
+#Important files:
 
 ./dr_analysis/effect_of_stim_plots_v2.m: generates figure 4
 
