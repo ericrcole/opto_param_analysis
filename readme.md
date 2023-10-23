@@ -12,6 +12,8 @@ Directory structure:
 
 ./dr_analysis: code for analysis of dimension-reduced data (Figs. 4-6)
 
+./data: processed data files.
+
 Important files:
 
 ./dr_analysis/effect_of_stim_plots_v2.m: generates figure 4
@@ -19,3 +21,10 @@ Important files:
 ./dr_analysis/plot_boundary_size_fig_v3.m: generates figure 5
 
 ./dr_analysis/plot_query_pts_v5_erc.m: generates subplots of figure 6
+
+
+Data structure:
+
+Each file represents the data collected for one subject and for one parameter space, concatenated for all separate experiment sessions. Each file is a .mat data structure with several fields:
+- fields named after canonical bands contain an Nx2 matrix, where N is the number of stimulation trials, column 1 is the pre-stimulation value, and column 2 is the during-stimulation value
+- each row of .param contains the stimulation parameters applied at the given trial
