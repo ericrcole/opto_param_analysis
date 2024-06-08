@@ -26,3 +26,9 @@ Code and processed data accompanying the paper "Irregular optogenetic stimulatio
 Each file represents the data collected for one subject and for one parameter space, concatenated for all separate experiment sessions. Each file is a .mat data structure with several fields:
 - fields named after canonical bands contain an Nx2 matrix, where N is the number of stimulation trials, column 1 is the pre-stimulation value, and column 2 is the during-stimulation value
 - each row of .param contains the stimulation parameters applied at the given trial
+
+## Dependencies
+
+- UMAP from Matlab Central (used v2.2 in this study): https://www.mathworks.com/matlabcentral/fileexchange/71902-uniform-manifold-approximation-and-projection-umap
+- Chronux for power spectral density analysis: http://chronux.org/
+
