@@ -1,8 +1,6 @@
 Code and processed data accompanying the paper "Irregular optogenetic stimulation waveforms can induce naturalistic patterns of hippocampal spectral activity"
 
-Work in progress; will be finalized pending submission of the revised manuscript
-
-Directory structure:
+##Directory structure:
 
 ./exp_code: .m files for generating and plotting stimulation signals (as used in real-time TDT experiments)
 
@@ -23,7 +21,7 @@ Important files:
 ./dr_analysis/plot_query_pts_v5_erc.m: generates subplots of figure 6
 
 
-Data structure:
+##Data structure:
 
 Each file represents the data collected for one subject and for one parameter space, concatenated for all separate experiment sessions. Each file is a .mat data structure with several fields:
 - fields named after canonical bands contain an Nx2 matrix, where N is the number of stimulation trials, column 1 is the pre-stimulation value, and column 2 is the during-stimulation value
